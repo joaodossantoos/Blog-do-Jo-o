@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do João</title>
+    
+    <style>
+        /* Estilos de Página e Cores */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fafbfc;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+        }
+
+        /* Cabeçalho Premium - Mistura de Azul Escuro e Dourado (remetendo ao Sucesso) */
+        header {
+            background-color: #1a365d; /* Azul escuro corporativo/confiável */
+            color: white; 
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 5px solid #d69e2e; /* Linha de destaque em Dourado */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1rem;
+            color: #e2e8f0;
+            font-style: italic;
+        }
+
+        /* Container centralizado */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Estilo dos Cartões de Postagem */
+        .postagem {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 35px;
+            border-radius: 8px; 
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Títulos com barras laterais coloridas dinâmicas */
+        .postagem h2 {
+            font-size: 1.6rem;
+            color: #1a365d;
+            margin-top: 0;
+            padding-left: 10px;
+            border-left: 5px solid #3182ce; /* Azul para estudos */
+        }
+
+        /* Cor especial da barra lateral para a meta financeira */
+        .postagem h2.sonho {
+            border-left: 5px solid #d69e2e; /* Dourado para o sonho */
+        }
+        
+        .postagem h2.futebol {
+            border-left: 5px solid #38a169; /* Verde para o campo de futebol */
+        }
+
+        /* Elementos Visuais das Postagens */
+        .imagem-bloco {
+            width: 100%;
+            height: 220px;
+            margin: 15px 0;
+            border-radius: 6px;
+            display: block;
+        }
+
+        /* Estilo do Texto */
+        .postagem p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #4a5568;
+            text-align: justify;
+        }
+
+        /* Destaques de palavras-chave */
+        .destaque {
+            font-weight: bold;
+            color: #1a365d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>O Blog do João</h1>
+        <p>Minha rotina, minhas paixões e os planos para o meu futuro</p>
+    </header>
+
+    <div class="container">
+
+        <div class="postagem">
+            <h2>Foco nos Estudos: A Jornada no Ensino Médio</h2>
+            
+            <svg class="imagem-bloco" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="#edf2f7"/>
+                <text x="50%" y="45%" font-family="Arial" font-size="24" fill="#2b6cb0" font-weight="bold" text-anchor="middle">Rotina Escolar & Aprendizado</text>
+                <text x="50%" y="65%" font-family="Arial" font-size="14" fill="#4a5568" text-anchor="middle">Construindo a base intelectual para os grandes desafios</text>
+                <path d="M 370,160 L 430,160 L 430,140 L 370,140 Z" fill="#4299e1" opacity="0.8"/>
+                <path d="M 380,140 L 420,140 L 420,125 L 380,125 Z" fill="#3182ce"/>
+            </svg>
+
+            <p>
+                Atualmente, grande parte do meu tempo é dedicada aos meus estudos no <span class="destaque">Ensino Médio</span>. Essa fase é cheia de novos desafios, matérias complexas e preparação. Sei que o conhecimento é a base fundamental para abrir as portas do mundo dos negócios. Busco me dedicar diariamente, pois cada aula é um degrau rumo ao meu sucesso futuro.
+            </p>
+        </div>
+
+        <div class="postagem">
+            <h2 class="futebol">A Paixão Pelo Futebol: Disciplina e Garra</h2>
+            
+            <svg class="imagem-bloco" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="#e6fffa"/>
+                <text x="50%" y="45%" font-family="Arial" font-size="24" fill="#234e52" font-weight="bold" text-anchor="middle">Futebol & Trabalho em Equipe</text>
+                <text x="50%" y="65%" font-family="Arial" font-size="14" fill="#2c7a7b" text-anchor="middle">A dedicação em campo que se reflete na vida diária</text>
+                <circle cx="400" cy="150" r="20" fill="none" stroke="#38a169" stroke-width="3"/>
+            </svg>
+
+            <p>
+                Fora da sala de aula, o <span class="destaque">futebol</span> é a minha maior paixão. Jogar me ensina muito mais do que táticas de campo; me traz disciplina, resiliência física e mental, e a habilidade essencial de trabalhar em equipe. Cada treino e cada partida me dão o foco necessário para enfrentar qualquer pressão com a cabeça erguida.
+            </p>
+        </div>
+
+        <div class="postagem">
+            <h2 class="sonho">Visão de Futuro: O Grande Sonho de Ser Milionário</h2>
+            
+            <svg class="imagem-bloco" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="#fefcbf"/>
+                <text x="50%" y="45%" font-family="Arial" font-size="24" fill="#744210" font-weight="bold" text-anchor="middle">Metas Altas & Independência Financeira</text>
+                <text x="50%" y="65%" font-family="Arial" font-size="14" fill="#975a16" text-anchor="middle">Trabalhando com estratégia hoje para conquistar a liberdade amanhã</text>
+            </svg>
+
+            <p>
+                Eu penso grande e não tenho medo de assumir isso: o meu maior <span class="destaque">sonho é ser milionário</span>. Para mim, a riqueza vai muito além de ostentação; ela significa liberdade de escolha, segurança para quem eu amo e o poder de transformar ideias em grandes empreendimentos. Juntando a inteligência adquirida na escola e a garra de vencedor do futebol, sei que estou trilhando o caminho certo.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
